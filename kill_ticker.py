@@ -19,14 +19,22 @@ import requests
 import json
 import time 
 
-systemDict=  {} 
+systemDict= {} 
+typesDict=  {}
+sleepTime=3
 
 with open("mapSolarSystems.csv", "r") as ins:
     for line in ins:
         my_list = line.split(",")
         #print(my_list[2]+"   " +my_list[3])
         systemDict[my_list[2]] = my_list[3]
-        
+
+with open("invTypes.csv", "r") as ins:
+    for line in ins:
+        my_list = line.split(",")
+        #print(my_list[2]+"   " +my_list[3])
+        typesDict[my_list[0]] = my_list[2]
+                    
 
 UREL1='https://zkillboard.com/kill/'
 list_to_monitor=['Jita','Perimeter','Sobaseki','Niyabainen','Tama','Kedama','Nennamaila'
@@ -44,7 +52,11 @@ while 1==1:
         killid=str(datka['killID'])
         sysa=str(datka['killmail']['solar_system_id'])
         totaldeneg='${:,.2f}'.format(datka['zkb']['totalValue'])
+        shipp=str(datka['killmail']['victim']['ship_type_id'])
+        zkillLocationID=str(datka['zkb']['locationID'])
         if systemDict.get(sysa) in list_to_monitor:
-            print('totaldeneg '+totaldeneg+'  '+sysa+ '   '+systemDict.get(sysa) 
-                + '  '+UREL1+killid+'/')
-    time.sleep(2)
+            print('totaldeneg '+totaldeneg+'  sysa  '+systemDict.get(sysa) 
+                + ' ship ' + typesDict.get(shipp) 
+                + '  zkillLocationID ' + zkillLocationID
+                + '      '+UREL1+killid+'/')
+    time.sleep(sleepTime)
