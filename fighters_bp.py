@@ -134,6 +134,50 @@ Scarab I                                    7,434,782.61    7,434,782.61    5,82
 Siren I                                     7,706,600.93    7,706,600.93    6,320,855.41    1,385,745.52
 Dromi I                                     7,947,905.92    7,947,905.92    6,250,019.08    1,697,886.84
     
+	
+
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47145
+standup equite 6mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47148
+sta equ 2   13mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47146
+standup locust   20 mil??
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47149
+sta lo 2    27 mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47147
+standup satyr   26 mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47150
+sta sat 2    17 mil
+		
+		
+https://www.fuzzwork.co.uk/blueprint/?typeid=47151
+sta gram2   14mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47141
+sta templa 2  19 mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47142
+sta drago 2   43 mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47143
+sta firbo2    19 mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47133
+sta dromi 1   4mil
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47123
+sta shad    ?? no sell
+
+https://www.fuzzwork.co.uk/blueprint/?typeid=47120
+sta mant 2    64 mil
+	
+	
 """    
 
 
